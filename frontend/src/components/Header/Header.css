@@ -6,21 +6,23 @@
 }
 .header {
   width: 100%;
-  /*background-image: url("/public/image/header-background.jpg");*/
+  background-image: url("/public/image/header-background.jpg");
   height: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10px;
-  background-color: rgb(209, 38, 38);
+  /*background-color: rgb(209, 38, 38);*/
 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .header-title {
-  color: white;
+  color: rgb(0, 0, 0);
   cursor: pointer;
+  font-weight: 1000;
+  padding: 15px;
 }
 
 .li,
@@ -31,7 +33,7 @@ button {
   font-size: 16px;
   color: bisque;
   text-decoration: none;
-  background-color: rgb(181, 181, 205);
+  background-color: rgb(132, 132, 163);
   padding: 10px;
 }
 
@@ -48,11 +50,31 @@ button {
   color: rgb(156, 131, 95);
 }
 
-.button {
+button {
   padding: 9px 25px;
-  background-color: aquamarine;
+  background-color: rgb(27, 80, 212);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: bisque;
+  text-decoration: none;
+  padding: 10px;
+}
+
+button:hover {
+  transition: all 0.3s ease 0s;
+  color: brown;
+}
+
+.cta {
+  background-color: transparent;
+}
+
+a {
+  opacity: 0.8;
 }

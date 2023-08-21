@@ -10,6 +10,9 @@
   color: white;
   text-align: center;
   background-image: url("/public/image/footer-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-text {

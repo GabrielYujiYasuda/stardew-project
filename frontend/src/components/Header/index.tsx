@@ -4,15 +4,15 @@ export default function Header() {
   return (
     <header className="header">
       {/*Here comes the image logo*/}
-      <h3>Stardew Project</h3>
+      <h3 className="header-title">Stardew Project</h3>
       <nav>
         <ul className="nav__links">
           <li>
-            <a href="#">TEST01</a>
+            <a href="#">News</a>
           </li>
 
           <li>
-            <a href="#">TEST02</a>
+            <a href="#">Blog</a>
           </li>
 
           <li>
@@ -21,8 +21,7 @@ export default function Header() {
         </ul>
       </nav>
       <a className="cta" href="$">
-        {" "}
-        <button>Contact</button>
+        <button className="button">Contact</button>
       </a>
     </header>
   );
