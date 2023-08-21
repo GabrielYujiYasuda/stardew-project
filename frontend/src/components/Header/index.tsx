@@ -3,8 +3,8 @@ import "./Header.css";
 export default function Header() {
   return (
     <header className="header">
-      {/*Here comes the image logo*/}
-      <h3 className="header-title">Stardew Project</h3>
+      {/*Here comes the logo image*/}
+      <h1>Stardew Project</h1>
       <nav>
         <ul className="nav__links">
           <li>
