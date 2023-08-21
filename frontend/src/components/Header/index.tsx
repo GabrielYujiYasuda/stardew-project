@@ -2,8 +2,10 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <>
-      <header className="header">STARDEW PROJECT</header>
-    </>
+    <div className="header">
+      <div className="header-title">
+        <h1>STARDEW PROJECT</h1>
+      </div>
+    </div>
   );
 }
