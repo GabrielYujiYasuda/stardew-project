@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="header">
       {/*Here comes the image logo*/}
-      <h3>Stardew Project</h3>
+      <h1>Stardew Project</h1>
       <nav>
         <ul className="nav__links">
           <li>
