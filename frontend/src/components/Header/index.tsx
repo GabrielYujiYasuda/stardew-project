@@ -4,7 +4,9 @@ export default function Header() {
   return (
     <header className="header">
       {/*Here comes the logo image*/}
-      <h1>Stardew Project</h1>
+      <Link className="transparent" to={"/"}>
+        <h1>Stardew Project</h1>
+      </Link>
       <nav>
         <ul className="nav__links">
           <li>
@@ -20,12 +22,10 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <a className="cta" href="$">
-        <Link className="button" to={"/contact"}>
-          Contact
-        </Link>
+
+      <Link className="transparent" to={"/contact"}>
         <button className="button">Contact</button>
-      </a>
+      </Link>
     </header>
   );
 }
