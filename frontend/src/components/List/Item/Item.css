@@ -1,0 +1,6 @@
+li {
+  display: flex;
+  padding: 10px 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+}
