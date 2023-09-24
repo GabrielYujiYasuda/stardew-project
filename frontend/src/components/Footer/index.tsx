@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="footer">
         <p className="footer-text">
-          Made by Gabriel Yasuda & Laura Vital Cacique
+          Made by Gabriel Yasuda & Laura Vital Cacique | TESTING
         </p>
       </footer>
     </>
