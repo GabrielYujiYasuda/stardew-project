@@ -24,7 +24,7 @@ export default function Header() {
       </nav>
 
       <Link className="transparent" to={"/contact"}>
-        <button className="button">Contact</button>
+        <button>Contact</button>
       </Link>
     </header>
   );

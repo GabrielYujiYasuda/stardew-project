@@ -7,6 +7,8 @@ export default function List() {
       <div>
         <ul className="ul">
           <Item></Item>
+          <Item></Item>
+          <Item></Item>
         </ul>
       </div>
     </>
